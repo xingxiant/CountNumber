@@ -1,6 +1,7 @@
 package com.xxt.entity;
 
 public class User {
+
 	private String sessionIdString;
 	
 	private String ipString;
