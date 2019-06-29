@@ -13,8 +13,9 @@
 
     
 
->   首先我们头知道session表示一个回话，所以监听session可以很好的统计在线用户的数量，所以我们选择***HttpSessionListener***监听session的**创建**与**销毁**
->    同时要记录用户的ip地址等日志信息，所以要监听request请求，所以还要使用***ServletRequestListener***监听request的**创建**
+>   首先我们要知道session表示一个回话，所以监听session可以很好的统计在线用户的数量，所以我们选择 **HttpSessionListener** 监听session的 **创建**与 **销毁**
+>
+>    要记录用户的ip地址等日志信息，就要监听request请求，所以还需要要使用 **ServletRequestListener** 监听request的 **创建**
 
 ## 代码讲解 ##
 
